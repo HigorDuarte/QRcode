@@ -1,0 +1,110 @@
+* {
+    font-family: "Raleway", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+    
+    body {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #D6E1F0;
+    }
+    
+    .container-content {
+        width: 500px;
+        height: 450px;
+        background-color: #FFFFFF;
+        padding: 40px;
+        border-radius: 15px;
+        transition: 2s ease;
+    }
+    
+    .qr-code {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .qr-code img{
+        width: 300px;
+        border-radius: 10px;
+        transition: 2s ease-in-out;
+    }
+    
+    .container-text {
+        margin-top: 14px;
+        text-align: center;
+
+    }
+    
+    h4 {
+        line-height: 23px;
+        font-weight: 800;
+        font-family: "Raleway", sans-serif;
+    }
+    
+    p {
+        margin-top: 10px;
+        line-height: 13px;
+        font-size: .8rem;
+        color: hsl(216, 15%, 48%);
+    }
+
+
+@media only screen and (max-width: 650px){
+
+    body {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #D6E1F0;
+    }
+    
+    .container-content {
+        width: 280px;
+        height: 420px;
+        background-color: #FFFFFF;
+        padding: 10px;
+        border-radius: 15px;
+        transition: 1s ease;
+    }
+    
+    .qr-code {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .qr-code img{
+        width: 250px;
+        border-radius: 10px;
+        margin-top: 10px;
+        transition: 1s ease;
+    }
+    
+    .container-text {
+        padding: 20px;
+        text-align: center;
+    }
+    
+    h4 {
+        line-height: 23px;
+        font-weight: 800;
+        font-family: "Raleway", sans-serif;
+    }
+    
+    p {
+        margin-top: 10px;
+        line-height: 13px;
+        font-size: .8rem;
+        color: hsl(216, 15%, 48%);
+    }
+}
+
